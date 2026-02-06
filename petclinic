@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetclinic</title>
+</head>
+<nav>
+    <img src="" alt="">
+    <ul>
+        <li><a href="#">особистий кабінет</a></li>
+        <li><a href="#">про нас</a></li>
+        <li><a href="#">новини та акції</a></li>
+        <li><a href="#">контакти</a></li>
+        <img src="" alt="">
+        <li><a href="#">конотоп</a></li>
+    </ul>
+</nav>
+<body>
+    <h1>Hello </h1>
+</body>
+</html>

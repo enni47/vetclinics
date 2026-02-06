@@ -1,0 +1,493 @@
+* {
+margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.header{
+   
+     display: flex;
+ justify-content: space-between; /* Розтягує елементи на всю ширину */
+ align-items: center;
+ padding: 0;
+
+
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main nav {
+  margin-top: 65px;
+}
+.navigation a{
+ 
+ /* font-weight: 400;
+ font-size: 20px; */
+ text-decoration: none; /*прибирає стандартне підкреслення у гіперпосилання.*/
+ color: hwb(0 0% 100%);
+ letter-spacing: 1px;
+
+}
+.logo {
+    height: 60px;
+    
+}
+.upp {
+   list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 8px;
+    padding: 0;
+    margin-left: 500px;
+    font-size: 24px;
+    margin-top: -8px;
+    text-decoration: none;
+
+}
+.pochuk{
+      display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+
+}
+.rozmetka {
+  margin-left: 30px;
+    margin-top: 60px;
+   
+}
+.rozmetka li{
+  text-decoration: none;
+}
+.rozmetka_2{
+     display: inline-block;
+    background-color: #8B8F7E;
+    color: #000000;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 90px;
+     font-size: 19px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+    margin-top: 8px ;
+    gap: 15px;
+    
+}
+.container {
+   /* flex: 1;
+  padding: 40px; */
+  display: flex;
+ flex-direction: row; /*Визначає напрямок, у якому будуть розташовані дочірні
+елементи.*/
+ align-items: center;
+ padding: 0 px;
+ margin-top: 0 px;
+}
+.contener{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 60px;
+ height: auto;
+ padding: 10px 0;
+ 
+}
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 500px;
+}
+.text {
+  color: #28323C;
+ font-weight: bold; /*Встановлює товщину шрифту на жирну*/
+ margin-left: 37px;
+ font-family: "Amiri Quran", sans-serif;
+ font-size: 37px
+}
+.text h1 {
+  font-size: 60px;
+  line-height: 1.5;
+  color: #28323C;
+}
+.redbottom a{
+  text-decoration: none;
+
+ 
+ color: #000000;
+
+}
+.botton {
+   
+    background-color: #56A293;
+    color: rgb(0, 0, 0);
+    border: none;
+    box-shadow: 4px 4px 10px rgba(201, 226, 60, 0.3); /* додаємо тінь*/
+    margin-top: 100px;
+     padding: 25px 80px;
+     
+    text-decoration: none;
+    border-radius: 90px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: 32px;
+    
+        
+}
+
+.img img{
+  /* max-width: 100%;
+  height: auto; */
+  width: 500px;
+ height: auto;
+ margin-left: 150px;
+ margin-right: 8px;
+
+    
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 0px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socmere  ul {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+.socmere ul li img {
+  width: 125px;
+  height: 90px;
+
+}
+.krol {
+}
+.botton_2 {
+}
+.ifo {
+}
+.h1 {
+}
+.sec_1 {
+}
+.h2 {
+}
+.p {
+}
+.sec_2 {
+}
+.diagnostic {
+}
+.sec_3 {
+}
+.coment {
+}
+.sec_4 {
+}
+
+
+/* Загальні стилі */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2 {
+  color: #28323C;
+  font-weight: bold;
+}
+
+h1.h1 {
+  font-size: 48px;
+  margin: 10px 0 30px 10px;
+}
+
+h2.h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p.p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-left: 60px;
+  max-width: 800px;
+}
+
+/* Секції */
+section {
+  margin: 40px 60px;
+}
+
+
+/* Список послуг */
+ul.diagnostic {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 60px;
+}
+
+ul.diagnostic li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Таблиця команди */
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  text-align: left;
+}
+
+table th {
+  background-color: #56A293;
+  color: white;
+}
+
+/* Відгуки */
+.coment {
+  background-color: #e6f2f0;
+  border-left: 5px solid #56A293;
+  padding: 20px;
+  margin: 20px 60px;
+  font-style: italic;
+}
+
+/* Форма */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  max-width: 600px;
+  margin-left: 60px;
+}
+
+form label {
+  font-size: 18px;
+}
+
+form input, form textarea {
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #56A293;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+form button {
+  background-color: #56A293;
+  color: #000;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 90px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #3e7f73;
+}
+
+/* Розмітка зліва */
+.rozmetka {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.rozmetka_2 {
+  display: inline-block;
+  background-color: #8B8F7E;
+  color: #000;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 90px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.container_1{ 
+  display: flex;
+  flex-direction: column; /* Замість row */
+  align-items: center;
+  padding: 40px 20px;
+  gap: 40px; /* Відстань між блоками */
+}
+.rozmetka_1{
+       margin-top: -1100px;
+    margin-left: 30px;
+}
+
+.container_1{
+  
+}
+
+.tab{
+  margin-left: -1100px;
+  gap: 30px;
+}
+.redbottom_1{
+  margin-top: 30px;
+  margin-left: 120px;
+}
+.botton_3{
+   background-color: #56A293;
+    color: rgb(0, 0, 0);
+    border: none;
+    box-shadow: 4px 4px 10px rgba(201, 226, 60, 0.3); /* додаємо тінь*/
+    margin-top: 100px;
+     padding: 25px 80px;
+     
+    text-decoration: none;
+    border-radius: 90px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: 32px;
+}
+.socmere_1 ul {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.socmere_1 ul li img {
+  width: 125px;
+  height: 90px;
+
+}
+.socmere_1{
+  margin-top: 30px;
+}
+.back{
+margin-left: -120px;
+}
+.botton_2{
+  background-color: #56A293 ;
+  border: none;
+  border-radius: 90px;
+   padding: 15px 50px;
+   color: #000;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+.pro_nas_1 {
+margin-left: 300px;
+
+}
+.pro_nas_2 {
+  
+}
+.pro_nas_3 {
+  
+}
+.pro_nas_4 {
+  
+}
+.pro_nas_5 {
+  
+}
+.nav_akc{
+ display: flex;
+  flex-direction: column; /* елементи зверху вниз */
+  align-items:flex-start ;     /* центрує по горизонталі */
+  text-align: left;      /* центрує текст */
+  padding: 40px 20px;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  
+  border-radius: 45px;
+ background-color: #e6f2f0;
+  border-left: 5px solid #56A293;
+  padding: 20px;
+ margin-bottom: 20px;
+ margin-top: 20px;
+
+}
+.nav_akc h4, .nav_akc h5{
+  font-size: 16px;
+} 
+.container_kabinet {
+  display: flex;
+  flex-direction: column; /* елементи зверху вниз */
+       /* центрує по горизонталі */
+  text-align: left;      /* центрує текст */
+  padding: 40px 20px;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.nazad {
+  margin-left: -300px;
+}
+.botton_2 {
+}
+.img_kab  img{
+margin-top: -270;
+}
+.name_kab {
+}
+.dani_kab {
+}
+
+
+#imageSlider img {
+  width: 30%;
+  height: 25%;
+  display: none; /* приховати всі зображення */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: opacity 0.6s ease-in-out; /* плавна зміна */
+  opacity: 0;
+}
+
+#imageSlider img.active {
+  display: block;
+  opacity: 1;
+}
+
+#imageSlider button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #56A293;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#imageSlider button:hover {
+  background-color: #3e7f73;
+}
